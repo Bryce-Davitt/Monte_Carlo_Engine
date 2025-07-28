@@ -1,7 +1,7 @@
 # Monte Carlo Engine for European Options
 
 ## Overview
-This python project is a modular Monte Carlo simulation engine for pricing European options and computing Greeks (Delta, Gamma) using Geometric Brownian Motion (GBM). It is designed for extensibility, performance, and clarity, making it suitable for both software engineering and quantitative finance applications.
+This python project is a modular Monte Carlo simulation engine for pricing European options and computing Greeks (Delta, Gamma) using Geometric Brownian Motion (GBM). I'm thinking about extending it to handle additional risk sensitivities like Vega, Theta, and Rho, as well as incorporating stochastic volatility models, but I'm not sure if I will.
 
 ## Features
 - Modular design: Easily extend with new models (e.g., Heston)
