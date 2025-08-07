@@ -16,7 +16,7 @@ engine = MonteCarloEngine(S0, r, sigma, T, n_steps, n_paths)
 call_price = engine.price_european_option(K, option_type='call')
 put_price = engine.price_european_option(K, option_type='put')
 
-# Compute Greeks
+# Compute the Greeks
 call_delta = engine.compute_delta(K, option_type='call')
 call_gamma = engine.compute_gamma(K, option_type='call')
 put_delta = engine.compute_delta(K, option_type='put')
