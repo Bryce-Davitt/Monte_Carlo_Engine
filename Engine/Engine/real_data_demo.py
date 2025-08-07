@@ -5,7 +5,7 @@ from pricing import Pricing
 from visualization import plot_price_paths, plot_payoff_distribution
 import pandas as pd
 
-# Prompt user for ticker
+# Prompt user for ticker of their c hoice 
 try:
     ticker = input("Enter ticker symbol (e.g., AAPL): ").strip().upper()
 except Exception:
